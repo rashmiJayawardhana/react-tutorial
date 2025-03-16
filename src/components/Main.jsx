@@ -23,7 +23,7 @@ function Main(props) {
       <p>hi</p>
       
       {/* `props.children` will render any nested children inside <Main> */}
-      <p>{props.children}</p>
+      <p>{props.children}</p>   {/* Here, render Rashmi */}
 
       {/* Displaying various values */}
       {sname} {/* Static variable */}
