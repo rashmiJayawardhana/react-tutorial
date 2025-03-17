@@ -3,6 +3,10 @@ import IncDecButton from "./components/useStateExamples/IncDecButton";
 import IncDecButtonConsoleLog from "./components/useEffectExamples/IncDecButtonConsoleLog";
 import MyData from "./data/MyData";   // Importing default export
 import { MyDataAnotherExport } from "./data/MyDataAnotherExport";  // Importing named export
+import Tutorial from "./components/useStateExamples/Tutorial";
+import String from "./components/useStateExamples/String";
+import Array from "./components/useStateExamples/Array";
+import DocumentTitle from "./components/useEffectExamples/DocumentTitle";
 
 // Local array data
 const myData = [
@@ -99,6 +103,10 @@ function App() {
 
       <IncDecButton/>
       <IncDecButtonConsoleLog/>
+      <Tutorial/>
+      <String/>
+      <Array/>
+      <DocumentTitle/>
     </>
   );
 }
