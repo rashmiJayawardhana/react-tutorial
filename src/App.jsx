@@ -7,6 +7,8 @@ import Tutorial from "./components/useStateExamples/Tutorial";
 import String from "./components/useStateExamples/String";
 import Array from "./components/useStateExamples/Array";
 import DocumentTitle from "./components/useEffectExamples/DocumentTitle";
+import FetchingDataUrl from "./components/useEffectExamples/FetchingDataUrl";
+import NameParent from "./components/props/NameParent";
 
 // Local array data
 const myData = [
@@ -107,6 +109,8 @@ function App() {
       <String/>
       <Array/>
       <DocumentTitle/>
+      <FetchingDataUrl/>
+      <NameParent/>
     </>
   );
 }
