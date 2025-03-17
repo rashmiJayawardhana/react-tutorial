@@ -1,4 +1,4 @@
-import React from "react"; // Importing React
+import React from "react"; 
 
 // Defining constants
 const sname = "RJayawardhana"; // Static name variable
